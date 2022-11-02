@@ -14,9 +14,9 @@ int main() {
     GetStringVal(small);
 
     short day = 11;
-    std:: string month = "Ноябрь";
+    std:: string month = "РќРѕСЏР±СЂСЊ";
     int year = 2003;
-    std:: cout << "Моя дата рождения: " << day << " " << month << " " << year << " года\n";
+    std:: cout << "РњРѕСЏ РґР°С‚Р° СЂРѕР¶РґРµРЅРёСЏ: " << day << " " << month << " " << year << " РіРѕРґР°\n";
 
     const float tmpf2 = 2.3;
     const std:: string winstr = "WINDOWS";
