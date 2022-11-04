@@ -29,5 +29,5 @@ int main() {
 
     if (error == false) std:: cout << first << " " << c << " " << second << " = " << answer;
     else std:: cout << "Неправильный формат ввода\n";
-
+    return 0;
 }
