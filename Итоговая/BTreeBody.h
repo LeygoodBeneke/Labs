@@ -85,9 +85,9 @@ node* BTree:: remove(node* p, int k) {
 
 int BTree:: find(node* n, int k, int idx=0) {
     if (n == nullptr) return -1;
-    if (n->key == k) return idx;
     if (n->key < k) return find(n->right, k, idx * 2 + 2);
     if (n->key > k) return find(n->left, k, idx * 2 + 1);
+    return idx;
 }
 
 void BTree:: print_node(node* root, std:: vector<int>& nums, int idx = 0) {
